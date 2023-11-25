@@ -1,30 +1,48 @@
 # texpregen-api
 Test Expression Generator API (texpregen-api) is a Flask REST-ful based API for texpregen app for generating random test expressions (cases) for data structures and algorithms problems.
 
-## How to run
-Install ```python3 pip3 ```
+## Getting started
+### Prerequisite
+- Python3
+- Pip3
+- Flask
+- Flask-Cors
+- Flask-RESTful
 
-Clone the repo.
+### How to run
+- Installing ```python3``` and ``` pip3 ```
 
-```git clone https://github.com/agxpro-z/texpregen-api```
+    Download and install python3 from https://www.python.org/downloads/ or follow your machine platform specific guide to install python.
 
-Change dir
+- Cloning the repository
+    ```
+    git clone https://github.com/agxpro-z/texpregen-api
+    ```
 
-```cd texpregen-api```
+- Changing to 'texpregen-api' directory
+    ```
+    cd texpregen-api
+    ```
 
-Install all dependencies and modules
+- Installing all dependencies and modules
+    ```
+    pip3 install -r requirements.txt
+    ```
 
-```pip3 install -r requirements.txt```
+- Running app
+    ```
+    flask --app main run
+    ```
 
-Run app
+    or
 
-```flask --app main run```
+    ```
+    flask --app main run --debug
+    ```
 
-or
+    to run in debug mode.
 
-```flaks --app main run --debug``` to run in debug mode.
-
-Open http://localhost:5000 in browser to check if API server is running properly.
+Open [http://localhost:5000](http://localhost:5000) in browser to check if API server is running properly.
 
 Following output will be displayed in browser if API server is working properly.
 ```
@@ -35,6 +53,6 @@ Following output will be displayed in browser if API server is working properly.
 
 # Next?
 ## texpregen app
-texpregen-api is used by texpre-gen app and should be kept running for proper functioning of the app.
+texpregen-api is used by texpregen app and it should be kept running for proper functioning of the app.
 
 https://github.com/agxpro-z/texpregen
